@@ -1,0 +1,53 @@
+/* general css */
+
+* {
+    background-color: gray;
+    box-sizing: border-box;
+  }
+  /* table css */
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 5px #fff;
+  }
+  
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: aqua;
+    font-size: 22px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  h2 {
+    display: block;
+    text-align: center;
+  }
+  
+  /* responsiveness */
+  
+  @media (max-width: 760px) {
+    table {
+      width: 100%;
+    }
+    * {
+      background-color: #fff;
+    }
+    th,
+    td {
+      background-color: black;
+      color: white;
+    }
+    th {
+      background-color: pink;
+    }
+  }
+  
